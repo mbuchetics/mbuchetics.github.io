@@ -1,9 +1,20 @@
-a {
+a, a:visited, a:hover {
     color: #3d7ea0;
+    text-decoration: none;
 }
 
-a:hover {
+a:hover .icon-text {
     color: #3d7ea0;
+    text-decoration: underline;
+}
+
+#content-centered {
+    width:600px;
+    height:400px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-200px 0 0 -300px;
 }
 
 #header {
@@ -47,10 +58,25 @@ a:hover {
 
 @media(max-width:767px) {
     #header {
-        font-size: 32px;
+        width: 300px;
+        margin: 40px auto 0 auto;
+        text-align: left;
+        font-size: 26px;
     }
 
     #header .profile {
-        width: 64px;
+        width: 48px;
+        margin-right: 0;
+    }
+
+    .icon {
+        width: 32px;
+        margin-top: -4px;
+        margin-left: 8px;
+    }
+
+    #info {
+        margin-top: 20px;
+        font-size: 18px;
     }
 }
