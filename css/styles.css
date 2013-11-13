@@ -1,0 +1,56 @@
+a {
+    color: #3d7ea0;
+}
+
+a:hover {
+    color: #3d7ea0;
+}
+
+#header {
+    text-align: center;
+    font-family: "museo-sans",sans-serif;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 48px;
+}
+
+#header .profile {
+    width: 112px;
+    margin-right: 6px;
+    margin-top: -10px;
+}
+
+#header .firstname {
+    font-weight: 300;
+}
+
+#header .lastname {
+    font-weight: 700;
+}
+
+#info {
+    width: 300px;
+    margin: 30px auto 0 auto;
+    font-family: "museo-sans",sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.info-item {
+    margin-top: 15px;
+}
+
+.icon {
+    width: 48px;
+    margin-top: -4px;
+}
+
+@media(max-width:767px) {
+    #header {
+        font-size: 32px;
+    }
+
+    #header .profile {
+        width: 64px;
+    }
+}
